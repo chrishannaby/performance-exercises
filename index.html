@@ -3,8 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/hero_dsens4_c_scale,w_2560.avif"
+      imagesrcset="         /assets/hero_dsens4_c_scale,w_200.avif   200w,
+                      /assets/hero_dsens4_c_scale,w_1081.avif 1081w,
+                      /assets/hero_dsens4_c_scale,w_1711.avif 1711w,
+                      /assets/hero_dsens4_c_scale,w_2146.avif 2146w,
+                      /assets/hero_dsens4_c_scale,w_2507.avif 2507w,
+                      /assets/hero_dsens4_c_scale,w_2553.avif 2553w,
+                      /assets/hero_dsens4_c_scale,w_2560.avif 2560w"
+      imagesizes="(max-width: 2560px) 100vw, 2560px"
+    />
+
     <link rel="stylesheet" href="/assets/styles.css" />
-    <link rel="preload" as="image" href="/assets/hero-optimized.avif" />
   </head>
   <body>
     <div class="bg-white">
@@ -143,10 +156,19 @@
                 <div class="absolute inset-0">
                   <img
                     class="h-full w-full object-cover"
-                    src="/assets/hero-optimized.avif"
                     alt="People working on laptops"
+                    sizes="(max-width: 2560px) 100vw, 2560px"
+                    srcset="
+                      /assets/hero_dsens4_c_scale,w_200.avif   200w,
+                      /assets/hero_dsens4_c_scale,w_1081.avif 1081w,
+                      /assets/hero_dsens4_c_scale,w_1711.avif 1711w,
+                      /assets/hero_dsens4_c_scale,w_2146.avif 2146w,
+                      /assets/hero_dsens4_c_scale,w_2507.avif 2507w,
+                      /assets/hero_dsens4_c_scale,w_2553.avif 2553w,
+                      /assets/hero_dsens4_c_scale,w_2560.avif 2560w
+                    "
+                    src="/assets/hero_dsens4_c_scale,w_2560.avif"
                   />
-
                   <div
                     class="absolute inset-0 bg-indigo-700 mix-blend-multiply"
                   ></div>
